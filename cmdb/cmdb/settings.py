@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'channels',
     'devops',
     'lmt',
+    'jenkinsJob',
     'webssh.apps.WebsshConfig',
     'utils',
     'rest_framework.authtoken',

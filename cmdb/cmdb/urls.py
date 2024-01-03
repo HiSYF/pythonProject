@@ -32,6 +32,8 @@ urlpatterns = [
     path('api/', include('devops.urls')), #包含其它页面的路由地址
     path('api/', include('user.urls')),  # 包含其它页面的路由地址
     path('api/', include('lmt.urls')), # liumeiti
+    path('api/', include('jenkinsJob.urls')),  # jenkinsJob
+
     path('api/', include('webssh.urls')),  # webssh,远程服务器日志
 
 ]
